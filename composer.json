@@ -1,5 +1,5 @@
 {
-  "name": "jeankassio/Sioner-Metadata-Extractor",
+  "name": "jeankassio/sioner-metadata-extractor",
   "description": "Sioner Metadata Extractor uses Chromedriver to extract metadata from websites with javascript using Symfony.",
   "keywords": ["scraping", "scraper", "chromedriver", "webdriver", "metadata", "symfony"],
   "homepage": "https://jeankassio.dev",
