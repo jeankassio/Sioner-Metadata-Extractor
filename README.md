@@ -11,7 +11,7 @@ composer require jeankassio/sioner-metadata-extractor
 
 ### Installing ChromeDriver
 
-Sioner uses the WebDriver protocol usef by Panther to crawl sites.
+Sioner uses the WebDriver protocol used by Panther to crawl sites.
 
 On all systems, you can use [`dbrekelmans/browser-driver-installer`](https://github.com/dbrekelmans/browser-driver-installer)
 to install ChromeDriver locally:
