@@ -12,6 +12,8 @@ Use [Composer](https://getcomposer.org/) to install Sioner in your project:
 composer require jeankassio/sioner-metadata-extractor
 ````
 
+## Dependencies:
+
 ### Installing ChromeDriver - Method #1
 
 Sioner uses the WebDriver protocol used by Panther to crawl sites.
