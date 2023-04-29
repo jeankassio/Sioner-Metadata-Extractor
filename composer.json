@@ -22,7 +22,8 @@
     "symfony/dom-crawler": "^5.3 || ^6.0",
     "symfony/http-client": "^5.3 || ^6.0",
     "symfony/http-kernel": "^5.3 || ^6.0",
-    "symfony/process": "^5.3 || ^6.0"
+    "symfony/process": "^5.3 || ^6.0",
+    "symfony/panther": "^2.0.1"
   },
   "autoload": {
     "psr-4": { "JeanKassio\\Sioner\\": "src/" }
