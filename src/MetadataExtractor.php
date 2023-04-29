@@ -1,17 +1,9 @@
 <?php
 namespace JeanKassio\Sioner;
 
-$NomeLogErro = "/error_general.txt";
-ini_set('display_errors', 1);
-ini_set('log_errors', 1);
-ini_set('error_log', dirname(__FILE__) . $NomeLogErro);
-error_reporting(E_ALL ^ E_NOTICE);
-
-
-
 require_once(dirname(__FILE__) . '/scraper/vendor/autoload.php');
-use Symfony\Component\Panther\Client;
 
+use Symfony\Component\Panther\Client;
 use Facebook\WebDriver\WebDriverElement;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\Panther\DomCrawler;
