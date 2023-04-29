@@ -1,8 +1,6 @@
 <?php
 namespace JeanKassio\Sioner;
 
-require_once(dirname(__FILE__) . '/scraper/vendor/autoload.php');
-
 use Symfony\Component\Panther\Client;
 use Facebook\WebDriver\WebDriverElement;
 use Symfony\Component\DomCrawler\Crawler;
