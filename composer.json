@@ -25,7 +25,7 @@
     "symfony/process": "^5.3 || ^6.0"
   },
   "autoload": {
-    "psr-4": { "JeanKassio\\Sioner\\MetadataExtractor\\": "src/" }
+    "psr-4": { "JeanKassio\\Sioner\\": "src/" }
   },
   "require-dev": {
     "symfony/css-selector": "^5.3 || ^6.0",
