@@ -12,7 +12,7 @@ Use [Composer](https://getcomposer.org/) to install Sioner in your project:
 composer require jeankassio/sioner-metadata-extractor
 ````
 
-### Installing ChromeDriver
+### Installing ChromeDriver - Method #1
 
 Sioner uses the WebDriver protocol used by Panther to crawl sites.
 
@@ -22,6 +22,61 @@ to install ChromeDriver locally:
     composer require --dev dbrekelmans/bdi
     vendor/bin/bdi detect drivers
 
+## OR
+
+### Installing ChromeDriver - Method #2
+
+```
+sudo apt update
+```
+
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+
+```
+sudo apt install wget
+```
+
+```
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+
+```
+sudo apt-get install -f
+```
+
+```
+google-chrome --version
+```
+
+### See the version of the Chrome
+
+Go to: [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+
+<img width="424" alt="image" src="https://user-images.githubusercontent.com/26697873/235277165-6bdbb597-221a-4b0e-99a7-d4faa7bcc3a9.png">
+
+Click in your version.
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/26697873/235277185-94a3df57-2da1-4d1f-8585-8b1cf6d05f7e.png">
+
+Download to your system
+
+Unzip and upload to your server
+
+```
+sudo mv chromedriver /usr/bin/chromedriver
+```
+
+```
+sudo chown root:root /usr/bin/chromedriver
+```
+
+```
+sudo chmod +x /usr/bin/chromedriver
+```
+
+Finished
 
 # Usage
 
