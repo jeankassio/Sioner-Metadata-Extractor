@@ -1,6 +1,9 @@
 # Sioner Metadata Extractor
 Sioner Metadata Extractor uses Chromedriver to extract metadata from websites with javascript using Symfony/Panther.
 
+[![Total Downloads](https://poser.pugx.org/jeankassio/Sioner-Metadata-Extractor/downloads)](https://packagist.org/packages/jeankassio/sioner-metadata-extractor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ### Installing Sioner
 
 Use [Composer](https://getcomposer.org/) to install Sioner in your project:
