@@ -169,3 +169,8 @@ $response = $code->ExtractMetadata();
 
 echo json_encode($response, JSON_UNESCAPED_UNICODE);
 ```
+
+
+## Copyright and license
+
+Code released under the [MIT license](https://github.com/jeankassio/Sioner-Metadata-Extractor/blob/main/LICENSE).
